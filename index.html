@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="zh-Hans">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#eef6fb" />
+    <meta
+      name="description"
+      content="Focus Above turns a focus timer into an immersive flight journey, from check-in to arrival."
+    />
+    <title>Focus Above · 把专注，变成一趟飞行</title>
+    <link rel="icon" type="image/png" href="assets/app-icon.png" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Focus Above">
+        <img src="assets/focus-above-logo.png" alt="" />
+        <span>Focus Above</span>
+      </a>
+
+      <nav class="main-nav" aria-label="Primary navigation">
+        <a href="#experience" data-copy="navExperience">体验</a>
+        <a href="#features" data-copy="navFeatures">特色</a>
+        <a href="https://butyuhao.github.io/focus-above-support/" data-copy="navSupport">支持</a>
+      </nav>
+
+      <div class="header-actions">
+        <label class="language-picker">
+          <span class="sr-only">Language</span>
+          <select id="language" aria-label="Language">
+            <option value="zh-Hans">简体中文</option>
+            <option value="zh-Hant">繁體中文</option>
+            <option value="en">English</option>
+          </select>
+        </label>
+        <a class="nav-cta" href="#download" data-copy="navCta">即将推出</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" id="top">
+        <div class="hero-map" aria-hidden="true"></div>
+        <div class="hero-content page-width">
+          <div class="hero-copy">
+            <p class="eyebrow" data-copy="heroEyebrow">沉浸式飞行专注计时器</p>
+            <h1 data-copy="heroTitle">把专注，<br />变成一趟飞行。</h1>
+            <p class="hero-lede" data-copy="heroBody">
+              选择一班航班，完成候机、起飞与抵达。让一段专注时间，拥有真正出发的仪式感。
+            </p>
+            <div class="hero-actions">
+              <a class="primary-button" href="#experience" data-copy="heroPrimary">看看如何起飞</a>
+              <span class="availability" data-copy="heroAvailability">为 iPhone 与 iPad 设计</span>
+            </div>
+          </div>
+
+          <div class="hero-stage" aria-label="Focus Above in-flight preview">
+            <div class="phone-shell hero-phone">
+              <img src="assets/in-flight.png" alt="Focus Above 飞行中界面" data-alt="inFlightAlt" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="journey-section" id="experience">
+        <div class="page-width">
+          <div class="section-heading centered-heading">
+            <p class="eyebrow" data-copy="journeyEyebrow">一次专注，一趟旅程</p>
+            <h2 data-copy="journeyTitle">从选择航班，到亲手撕下票根。</h2>
+            <p data-copy="journeyBody">Focus Above 不把开始专注简化成一个按钮，而是把出发前的每一步都变成仪式。</p>
+          </div>
+
+          <ol class="experience-showcase">
+            <li class="experience-scene scene-departures">
+              <div class="scene-visual">
+                <div class="app-screen departures-screen">
+                  <img src="assets/flight-selection.jpg" alt="Focus Above 航班选择离港大屏" data-alt="flightSelectionAlt" />
+                </div>
+              </div>
+              <div class="scene-copy">
+                <span class="scene-index">01 / DEPARTURES</span>
+                <h3 data-copy="stepOneTitle">从航班大屏，选一趟旅程。</h3>
+                <p data-copy="stepOneBody">真实离港大屏般的航班牌，把目的地、登机口与专注时长放在同一次选择里。</p>
+              </div>
+            </li>
+
+            <li class="experience-scene scene-tear">
+              <div class="scene-visual">
+                <div class="app-screen tear-screen">
+                  <img src="assets/tear-ticket.jpg" alt="Focus Above 滑动撕下票根界面" data-alt="tearTicketAlt" />
+                </div>
+              </div>
+              <div class="scene-copy">
+                <span class="scene-index">02 / BOARDING PASS</span>
+                <h3 data-copy="stepTwoTitle">沿打孔线，亲手撕下票根。</h3>
+                <p data-copy="stepTwoBody">出票后滑动撕票。一个简单的手势，把“我要开始了”变成看得见、摸得到的决定。</p>
+              </div>
+            </li>
+
+            <li class="experience-scene scene-gate">
+              <div class="scene-visual">
+                <div class="app-screen gate-screen">
+                  <img src="assets/gate-board.jpg" alt="Focus Above 登机口航班牌界面" data-alt="gateBoardAlt" />
+                </div>
+              </div>
+              <div class="scene-copy">
+                <span class="scene-index">03 / AT THE GATE</span>
+                <h3 data-copy="stepThreeTitle">在登机口，等候起飞。</h3>
+                <p data-copy="stepThreeBody">翻页航班牌、粒子目的地与倒计时一起建立候机氛围，随后自然进入飞行专注。</p>
+              </div>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <section class="feature-stage" id="features">
+        <div class="feature-map" aria-hidden="true"></div>
+        <div class="page-width feature-layout">
+          <div class="feature-copy feature-copy-left">
+            <p class="eyebrow light-eyebrow" data-copy="flightEyebrow">IN THE AIR</p>
+            <h2 data-copy="flightTitle">飞行途中，只做眼前的事。</h2>
+            <p data-copy="flightBody">
+              航班从候机自然进入飞行。地图沿航线前进，剩余时间始终清晰，界面把打扰留在地面。
+            </p>
+          </div>
+
+          <div class="phone-shell feature-phone">
+            <img src="assets/in-flight.png" alt="Focus Above 航线地图" data-alt="inFlightAlt" />
+          </div>
+
+          <ul class="feature-points">
+            <li><span>01</span><strong data-copy="flightPointOne">真实航班灵感</strong></li>
+            <li><span>02</span><strong data-copy="flightPointTwo">Standard 与 Hybrid 地图</strong></li>
+            <li><span>03</span><strong data-copy="flightPointThree">连续机舱环境音</strong></li>
+            <li><span>04</span><strong data-copy="flightPointFour">iPhone 与 iPad 自适应</strong></li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="trace-section">
+        <div class="trace-map" aria-hidden="true"></div>
+        <div class="page-width trace-layout">
+          <div class="passport-wrap" aria-hidden="true">
+            <div class="passport-ticket">
+              <span>BOARDING PASS</span>
+              <strong>HKG&nbsp;&nbsp;→&nbsp;&nbsp;TPE</strong>
+            </div>
+            <img id="passport-cover" src="assets/passport-zh-hans.png" alt="" />
+          </div>
+
+          <div class="trace-copy">
+            <p class="eyebrow" data-copy="traceEyebrow">YOUR FLIGHT LOG</p>
+            <h2 data-copy="traceTitle">每一道航迹，<br />都是专注留下的印记。</h2>
+            <p data-copy="traceBody">
+              完成的旅程会收进飞行档案。沿着世界地图回看抵达过的机场、累计专注时间与飞行距离。
+            </p>
+            <div class="trace-stats" aria-label="Example focus journey statistics">
+              <div><strong>12</strong><span data-copy="statAirports">抵达机场</span></div>
+              <div><strong>840</strong><span data-copy="statMinutes">专注分钟</span></div>
+              <div><strong>8,426</strong><span data-copy="statDistance">飞行公里</span></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="download-section" id="download">
+        <div class="download-route" aria-hidden="true"><span>HKG</span><i></i><b>✈</b><i></i><span>FOCUS</span></div>
+        <div class="download-card">
+          <img src="assets/app-icon.png" alt="Focus Above app icon" />
+          <p class="eyebrow" data-copy="downloadEyebrow">READY FOR DEPARTURE</p>
+          <h2 data-copy="downloadTitle"><span class="download-line">下一趟专注旅程，</span><br /><span class="download-line">准备起飞。</span></h2>
+          <p data-copy="downloadBody">Focus Above 即将登陆 App Store。</p>
+          <span class="coming-button" data-copy="downloadAction">即将推出</span>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-brand">
+        <img src="assets/focus-above-logo.png" alt="" />
+        <div><strong>Focus Above</strong><span data-copy="footerTagline">心无旁骛，向上而行。</span></div>
+      </div>
+      <div class="footer-links">
+        <a href="https://butyuhao.github.io/focus-above-support/" data-copy="footerSupport">技术支持</a>
+        <a href="mailto:focusabove.support@gmail.com" data-copy="footerContact">联系我们</a>
+      </div>
+      <p>© 2026 Focus Above.</p>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
