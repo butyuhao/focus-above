@@ -1,5 +1,6 @@
 const copy = {
   'zh-Hans': {
+    brandPrimary: '专注高空', brandSecondary: 'Focus Above',
     navExperience: '体验', navFeatures: '特色', navSupport: '支持', navCta: '即将推出',
     heroEyebrow: '沉浸式飞行专注计时器', heroTitle: '把专注，<br />变成一趟飞行。',
     heroBody: '选择一班航班，完成候机、起飞与抵达。让一段专注时间，拥有真正出发的仪式感。', heroPrimary: '看看如何起飞', heroAvailability: '为 iPhone 与 iPad 设计',
@@ -16,6 +17,7 @@ const copy = {
     flightSelectionAlt: 'Focus Above 航班选择离港大屏', tearTicketAlt: 'Focus Above 滑动撕下票根界面', gateBoardAlt: 'Focus Above 登机口航班牌界面'
   },
   'zh-Hant': {
+    brandPrimary: '專注高空', brandSecondary: 'Focus Above',
     navExperience: '體驗', navFeatures: '特色', navSupport: '支援', navCta: '即將推出',
     heroEyebrow: '沉浸式飛行專注計時器', heroTitle: '把專注，<br />變成一趟飛行。',
     heroBody: '選擇一班航班，完成候機、起飛與抵達。讓一段專注時間，擁有真正出發的儀式感。', heroPrimary: '看看如何起飛', heroAvailability: '為 iPhone 與 iPad 而設',
@@ -32,6 +34,7 @@ const copy = {
     flightSelectionAlt: 'Focus Above 航班選擇離港大屏', tearTicketAlt: 'Focus Above 滑動撕下票根介面', gateBoardAlt: 'Focus Above 登機閘口航班牌介面'
   },
   en: {
+    brandPrimary: 'Focus Above', brandSecondary: '专注高空',
     navExperience: 'Experience', navFeatures: 'Features', navSupport: 'Support', navCta: 'Coming soon',
     heroEyebrow: 'AN IMMERSIVE FLIGHT FOCUS TIMER', heroTitle: 'Turn your focus<br />into a flight.',
     heroBody: 'Choose a flight, wait at the gate, take off, and arrive. Give every focus session the feeling of a real departure.', heroPrimary: 'See how it works', heroAvailability: 'Designed for iPhone and iPad',
