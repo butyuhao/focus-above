@@ -51,8 +51,8 @@ button, select { font: inherit; }
 .main-nav a:hover, .footer-links a:hover { color: var(--blue); }
 .header-actions { justify-self: end; display: flex; align-items: center; gap: 12px; }
 .language-picker select { min-height: 38px; padding: 0 28px 0 12px; border: 0; border-radius: 999px; color: #303640; background: rgb(255 255 255 / 62%); }
-.nav-cta, .primary-button, .coming-button { display: inline-flex; align-items: center; justify-content: center; min-height: 42px; padding: 0 18px; border-radius: 999px; background: var(--blue); color: #fff; font-size: 14px; font-weight: 650; white-space: nowrap; }
-.nav-cta, .primary-button { transition: transform 180ms ease, background 180ms ease; }
+.nav-cta, .primary-button, .download-button { display: inline-flex; align-items: center; justify-content: center; min-height: 42px; padding: 0 18px; border-radius: 999px; background: var(--blue); color: #fff; font-size: 14px; font-weight: 650; white-space: nowrap; }
+.nav-cta, .primary-button, .download-button { transition: transform 180ms ease, background 180ms ease; }
 .nav-cta:hover, .primary-button:hover { background: #0874df; transform: translateY(-1px); }
 
 .hero { position: relative; min-height: 100svh; overflow: hidden; background: #eef6fb; }
@@ -132,7 +132,8 @@ h1 { margin-bottom: 28px; font-size: clamp(54px, 5vw, 72px); line-height: 1; fon
 .download-card h2 { font-size: clamp(36px, 5.4vw, 74px); }
 .download-line { white-space: nowrap; }
 .download-card > p:not(.eyebrow) { color: rgb(255 255 255 / 66%); font-size: 20px; }
-.coming-button { min-height: 52px; margin-top: 18px; padding-inline: 28px; background: #fff; color: #082454; }
+.download-button { min-height: 52px; margin-top: 18px; padding-inline: 28px; background: #fff; color: #082454; }
+.download-button:hover { background: #f1f5fa; transform: translateY(-1px); }
 .download-route { position: absolute; z-index: 1; bottom: 44px; display: flex; align-items: center; gap: 14px; color: rgb(255 255 255 / 42%); font: 700 12px/1 ui-monospace, SFMono-Regular, Menlo, monospace; letter-spacing: .1em; }
 .download-route i { width: 88px; height: 1px; background: rgb(255 255 255 / 25%); }
 .download-route b { color: #74baff; font-size: 20px; transform: rotate(4deg); }

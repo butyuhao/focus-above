@@ -1,7 +1,7 @@
 const copy = {
   'zh-Hans': {
     brandPrimary: '专注高空', brandSecondary: 'Focus Above',
-    navExperience: '体验', navFeatures: '特色', navSupport: '支持', navCta: '即将推出',
+    navExperience: '体验', navFeatures: '特色', navSupport: '支持', navCta: '下载',
     heroEyebrow: '沉浸式飞行专注计时器', heroTitle: '把专注，<br />变成一趟飞行。',
     heroBody: '选择一班航班，完成候机、起飞与抵达。让一段专注时间，拥有真正出发的仪式感。', heroPrimary: '看看如何起飞', heroAvailability: '为 iPhone 与 iPad 设计',
     journeyEyebrow: '一次专注，一趟旅程', journeyTitle: '从选择航班，到亲手撕下票根。', journeyBody: 'Focus Above 不把开始专注简化成一个按钮，而是把出发前的每一步都变成仪式。',
@@ -12,13 +12,13 @@ const copy = {
     flightPointOne: '真实航班灵感', flightPointTwo: 'Standard 与 Hybrid 地图', flightPointThree: '连续机舱环境音', flightPointFour: 'iPhone 与 iPad 自适应',
     traceEyebrow: 'YOUR FLIGHT LOG', traceTitle: '每一道航迹，<br />都是专注留下的印记。', traceBody: '完成的旅程会收进飞行档案。沿着世界地图回看抵达过的机场、累计专注时间与飞行距离。',
     statAirports: '抵达机场', statMinutes: '专注分钟', statDistance: '飞行公里',
-    downloadEyebrow: 'READY FOR DEPARTURE', downloadTitle: '<span class="download-line">下一趟专注旅程，</span><br /><span class="download-line">准备起飞。</span>', downloadBody: 'Focus Above 即将登陆 App Store。', downloadAction: '即将推出',
+    downloadEyebrow: 'READY FOR DEPARTURE', downloadTitle: '<span class="download-line">下一趟专注旅程，</span><br /><span class="download-line">准备起飞。</span>', downloadBody: '在 App Store 下载 Focus Above，开启你的下一趟专注旅程。', downloadAction: '在 App Store 下载',
     footerTagline: '心无旁骛，向上而行。', footerSupport: '技术支持', footerContact: '联系我们', inFlightAlt: 'Focus Above 飞行中界面',
     flightSelectionAlt: 'Focus Above 航班选择离港大屏', tearTicketAlt: 'Focus Above 滑动撕下票根界面', gateBoardAlt: 'Focus Above 登机口航班牌界面'
   },
   'zh-Hant': {
     brandPrimary: '專注高空', brandSecondary: 'Focus Above',
-    navExperience: '體驗', navFeatures: '特色', navSupport: '支援', navCta: '即將推出',
+    navExperience: '體驗', navFeatures: '特色', navSupport: '支援', navCta: '下載',
     heroEyebrow: '沉浸式飛行專注計時器', heroTitle: '把專注，<br />變成一趟飛行。',
     heroBody: '選擇一班航班，完成候機、起飛與抵達。讓一段專注時間，擁有真正出發的儀式感。', heroPrimary: '看看如何起飛', heroAvailability: '為 iPhone 與 iPad 而設',
     journeyEyebrow: '一次專注，一趟旅程', journeyTitle: '從選擇航班，到親手撕下票根。', journeyBody: 'Focus Above 不把開始專注簡化成一個按鈕，而是讓出發前的每一步都成為儀式。',
@@ -29,13 +29,13 @@ const copy = {
     flightPointOne: '真實航班靈感', flightPointTwo: 'Standard 與 Hybrid 地圖', flightPointThree: '連續機艙環境聲', flightPointFour: 'iPhone 與 iPad 自適應',
     traceEyebrow: 'YOUR FLIGHT LOG', traceTitle: '每一道航跡，<br />都是專注留下的印記。', traceBody: '完成的旅程會收進飛行檔案。沿著世界地圖回看抵達過的機場、累計專注時間與飛行距離。',
     statAirports: '抵達機場', statMinutes: '專注分鐘', statDistance: '飛行公里',
-    downloadEyebrow: 'READY FOR DEPARTURE', downloadTitle: '<span class="download-line">下一趟專注旅程，</span><br /><span class="download-line">準備起飛。</span>', downloadBody: 'Focus Above 即將登陸 App Store。', downloadAction: '即將推出',
+    downloadEyebrow: 'READY FOR DEPARTURE', downloadTitle: '<span class="download-line">下一趟專注旅程，</span><br /><span class="download-line">準備起飛。</span>', downloadBody: '在 App Store 下載 Focus Above，開啟你的下一趟專注旅程。', downloadAction: '在 App Store 下載',
     footerTagline: '心無旁騖，向上而行。', footerSupport: '技術支援', footerContact: '聯絡我們', inFlightAlt: 'Focus Above 飛行中介面',
     flightSelectionAlt: 'Focus Above 航班選擇離港大屏', tearTicketAlt: 'Focus Above 滑動撕下票根介面', gateBoardAlt: 'Focus Above 登機閘口航班牌介面'
   },
   en: {
     brandPrimary: 'Focus Above', brandSecondary: '专注高空',
-    navExperience: 'Experience', navFeatures: 'Features', navSupport: 'Support', navCta: 'Coming soon',
+    navExperience: 'Experience', navFeatures: 'Features', navSupport: 'Support', navCta: 'Download',
     heroEyebrow: 'AN IMMERSIVE FLIGHT FOCUS TIMER', heroTitle: 'Turn your focus<br />into a flight.',
     heroBody: 'Choose a flight, wait at the gate, take off, and arrive. Give every focus session the feeling of a real departure.', heroPrimary: 'See how it works', heroAvailability: 'Designed for iPhone and iPad',
     journeyEyebrow: 'ONE SESSION. ONE JOURNEY.', journeyTitle: 'Choose a flight. Tear off your stub.', journeyBody: 'Focus Above turns the moments before focus into a departure ritual—not just another Start button.',
@@ -46,7 +46,7 @@ const copy = {
     flightPointOne: 'Inspired by real flights', flightPointTwo: 'Standard and Hybrid maps', flightPointThree: 'Continuous cabin ambience', flightPointFour: 'Adaptive on iPhone and iPad',
     traceEyebrow: 'YOUR FLIGHT LOG', traceTitle: 'Every route marks<br />the focus you kept.', traceBody: 'Completed journeys enter your flight log. Look back at the airports you reached, time you focused, and distance you travelled.',
     statAirports: 'Airports reached', statMinutes: 'Focus minutes', statDistance: 'Kilometres flown',
-    downloadEyebrow: 'READY FOR DEPARTURE', downloadTitle: '<span class="download-line">Your next journey</span><br /><span class="download-line">is ready for takeoff.</span>', downloadBody: 'Focus Above is coming soon to the App Store.', downloadAction: 'Coming soon',
+    downloadEyebrow: 'READY FOR DEPARTURE', downloadTitle: '<span class="download-line">Your next journey</span><br /><span class="download-line">is ready for takeoff.</span>', downloadBody: 'Download Focus Above on the App Store and start your next focus journey.', downloadAction: 'Download on the App Store',
     footerTagline: 'Let Your Focus Rise Above.', footerSupport: 'Support', footerContact: 'Contact', inFlightAlt: 'Focus Above in-flight screen',
     flightSelectionAlt: 'Focus Above departure board flight picker', tearTicketAlt: 'Focus Above slide-to-tear ticket screen', gateBoardAlt: 'Focus Above gate board screen'
   }
